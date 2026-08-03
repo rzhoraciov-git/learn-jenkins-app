@@ -28,8 +28,8 @@ pipeline {
             }
             steps {
                 sh '''
-                    test -f build/index.html // checks for index.html file
-                    npm test // run unit tests
+                    test -f build/index.html 
+                    npm test 
                 '''
             }
         }
